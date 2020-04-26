@@ -1,0 +1,25 @@
+body
+{
+    background-color: #424242;
+    color:white;
+}
+
+#table>table
+{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #636261;
+}
+
+td
+{
+    border:2px black solid;
+    height:50px;
+    width:50px;
+    padding:0;
+    text-align: center;
+}
+.xvagyo
+{
+    font-size: 40px;
+}

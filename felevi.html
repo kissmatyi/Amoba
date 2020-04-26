@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Félévi dolgozat</title>
+    <script src="felevi.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="torol()">
+    <input type="number" placeholder="sorszám" id="coordx" name="coordinatex" value="">
+    <input type="number" placeholder="oszlopszám" id="coordy" name="coordinatey" value="">
+    <select id="karakter" name="karakterek">
+        <option value="x">x</option>
+        <option value="o">o</option>
+    </select>
+    <input type="submit" value="Küldés" onclick="berajzolas()">
+    <button id="Highscore" onclick="highscore()">Highscore</button>
+    <input type="number" placeholder="a táblameret" id="xmeret" value="">
+    <input type="number" placeholder="a tablameret" id="ymeret" value="">
+    <input type="button" id="tablagomb" value="Játéktérgenerálás" onclick="tablazat()">
+    <p id="ido">Ido: 15</p>
+    <div id="table"></div>
+</body>
+</html>
